@@ -6,7 +6,7 @@ import random
 
 import aiosip
 
-from util import Registration
+from aiosip.registration import Registration
 
 sip_config = {
     'srv_host': '127.0.0.1',
